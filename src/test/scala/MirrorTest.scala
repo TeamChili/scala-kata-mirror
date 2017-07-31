@@ -8,11 +8,6 @@ import org.scalatest.Assertions._
 
 @RunWith(classOf[JUnitRunner])
 class MirrorTest extends FunSuite {
- 
-  object Mirror {
-    def vertical(input: String): String = ""
-    def horizontal(input: String): String = "" 
-  }
 
     test("should mirror horizontally") {
       val input = ""
