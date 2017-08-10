@@ -7,15 +7,7 @@ import org.scalatest.Assertions._
 
 
 @RunWith(classOf[JUnitRunner])
-class MirrorTest extends FunSuite {
-
-    test("should mirror horizontally") {
-      val input = ""
-      val expected = ""
-      val result = Mirror.horizontal(input)
-
-      assert( result == expected )
-    }
+class MirrorVerticalTest extends FunSuite {
 
   test("should mirror verictally") {
     val input = "hSgdHQ\nHnDMao\nClNNxX\niRvxxH\nbqTVvA\nwvSyRu"
