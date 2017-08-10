@@ -9,17 +9,17 @@ import org.scalatest.Assertions._
 @RunWith(classOf[JUnitRunner])
 class MirrorVerticalTest extends FunSuite {
 
-  test("should mirror verictally") {
-    val input = "hSgdHQ\nHnDMao\nClNNxX\niRvxxH\nbqTVvA\nwvSyRu"
-    val expected = "QHdgSh\noaMDnH\nXxNNlC\nHxxvRi\nAvVTqb\nuRySvw"
+  test("should mirror verictally 1") {
+    val input = "hSgdHQ"
+    val expected = "QHdgSh"
     val result = Mirror.vertical(input)
 
     assert( result == expected )
   }
 
   test("should mirror verictally 2") {
-    val input = "IzOTWE\nkkbeCM\nWuzZxM\nvDddJw\njiJyHF\nPVHfSx"
-    val expected = "EWTOzI\nMCebkk\nMxZzuW\nwJddDv\nFHyJij\nxSfHVP"
+    val input = "IzOTWE\nkkbeCM"
+    val expected = "EWTOzI\nMCebkk"
     val result = Mirror.vertical(input)
 
     assert( result == expected )
@@ -40,7 +40,4 @@ class MirrorVerticalTest extends FunSuite {
 
     assert( result == expected )
   }
-
-
-
 }
